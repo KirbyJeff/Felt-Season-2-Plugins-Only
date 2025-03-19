@@ -109,9 +109,9 @@ proxies:
     online-mode: true
   proxy-protocol: false
   velocity:
-    enabled: true
+    enabled: false
     online-mode: true
-    secret: HXDk5sPC5uSM
+    secret: ''
 scoreboards:
   save-empty-scoreboard-teams: false
   track-plugin-scoreboards: false
