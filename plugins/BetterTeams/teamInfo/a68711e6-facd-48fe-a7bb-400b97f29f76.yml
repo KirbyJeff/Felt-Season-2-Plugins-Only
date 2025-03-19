@@ -1,0 +1,23 @@
+name: perse
+description: 'the super intense minecraft players '
+open: false
+pvp: false
+home: ''
+color: c
+chests: []
+players:
+- 00000000-0000-0000-0009-01fefb1e7e54,DEFAULT
+- 00000000-0000-0000-0009-01fef2c275ff,DEFAULT
+- 00000000-0000-0000-0009-01fc55bb62f3,DEFAULT
+- 00000000-0000-0000-0009-01f8a911dc56,DEFAULT
+- 84687e2c-cd97-49d5-9f8a-198642c4a22d,DEFAULT
+- 00000000-0000-0000-0009-01fa949035f5,DEFAULT
+- 00000000-0000-0000-0009-01f83b9328ac,DEFAULT
+- 00000000-0000-0000-0009-01ff39ccbd5f,OWNER
+- 00000000-0000-0000-0009-01f54aac06f1,DEFAULT
+level: 1
+tag: Perse
+score: 10
+allies:
+- 22567283-684e-4ab0-a962-3ba8461f8586
+allyrequests: []

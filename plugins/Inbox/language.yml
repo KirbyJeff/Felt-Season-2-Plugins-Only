@@ -1,0 +1,41 @@
+#you can modify every text feedback message as you like or translate it to your own language
+
+offmsg:
+  usage: "Usage: /offmsg <player> <message>"
+  player_not_found: "Player '{player}' not found."
+  message_sent: "Message sent to {player}."
+
+inbox:
+  players_only: "Only players can use this command."
+  no_messages: "You have no messages."
+  invalid_page: "Please enter a valid page number."
+  page_not_exist: "Page {page} does not exist. There are {total_pages} page(s) in total."
+  header: "Your Inbox - Page {page} of {total_pages}:"
+  new_tag: "[NEW] "
+  cleared: "Your inbox has been cleared."
+  version: "Inbox Version {version}"
+  help:
+    header: "Inbox Commands:"
+    offmsg: "/offmsg <player> <message> - Send an offline message"
+    inbox: "/inbox [page] - View your inbox"
+    inbox_example: "  Example: /inbox 2 shows page 2 of your inbox"
+    clear: "/inbox clear - Clear your inbox"
+    version: "/inbox version - Show the plugin version"
+    help: "/inbox help - Show this help message"
+    admin_header: "Admin Commands:"
+    clearafter: "/inbox clearafter <days>|never - Set message deletion time"
+    clearnow: "/inbox clearnow - Clear all inboxes"
+    clear_player: "/inbox clear <player> - Clear a player's inbox"
+  unknown_command: "Unknown subcommand or incorrect usage. Use /inbox help for a list of commands."
+  clearafter:
+    usage: "Usage: /inbox clearafter <days>|never"
+    never: "Messages will never be deleted."
+    positive_number: "Please enter a positive number of days."
+    set: "Messages will be deleted after {days} day(s)."
+    invalid_number: "Invalid number of days."
+  clearnow: "All inboxes have been cleared."
+  player_not_found: "Player '{player}' not found."
+  cleared_player: "Inbox of {player} has been cleared."
+
+login:
+  unread_messages: "You have {count} unread message(s)! Type /inbox to view them."

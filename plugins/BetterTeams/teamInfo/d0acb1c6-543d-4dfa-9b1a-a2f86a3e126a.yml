@@ -1,0 +1,16 @@
+name: Napoleon
+description: ''
+open: false
+pvp: false
+home: ''
+color: a
+chests: []
+players:
+- 00000000-0000-0000-0009-01f397260ae7,OWNER
+- 71e6c042-33c0-43fb-8c55-9a1ffb722cbc,DEFAULT
+level: 1
+tag: ''
+score: 0
+allyrequests: []
+allies:
+- f852f873-3352-41d4-bf55-40a3327cd55f

@@ -1,0 +1,8 @@
+validBiomesV2: []
+isEnabled: true
+structureType:
+- UNDERGROUND_DEEP
+validWorldEnvironments:
+- NETHER
+validBiomes: []
+treasureFilename: treasure_nether.yml

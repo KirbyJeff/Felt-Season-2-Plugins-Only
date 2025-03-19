@@ -1,0 +1,37 @@
+hologram:
+- '&#b30e4a🪦 &#FF0000&l%player%''s Grave &#b30e4a🪦'
+- '&#55bded⌛ ᴛɪᴍᴇ sɪɴᴄᴇ ᴅᴇᴀᴛʜ: %despawn-time% &#55bded⌛'
+- '&#056e0b&l%item% &#4aed1cɪᴛᴇᴍs &8| &#056e0b&l%xp% &#4aed1cxᴘ'
+
+help:
+- ' '
+- '&#FF00FF&lGraves &7» '
+- ' &7- &f/axgraves reload &7| &#FF00FFReload plugin'
+- ' &7- &f/axgraves list &7| &#FF00FFList spawned graves'
+- ' '
+
+gui-name: '&0%player%''s Grave'
+
+# if you restart the server, sometimes the server can't find the owner's name, this will be used for it
+unknown-player: Unknown
+
+reload:
+  success: '&#33FF33Plugin successfully reloaded!'
+  failed: '&#FF3333Failed to reload the plugin! Something is wrong in the &f%file%&#FF3333 file, look in the console or use a yaml validator to fix the errors!'
+
+interact:
+  not-your-grave: '&#FFAAFFYou can only open your own grave!'
+
+death-message:
+  enabled: false
+  message: '&#FFAAAAYou have died at &f%world% %x%, %y%, %z%&#FFAAAA!'
+
+grave-list:
+  header: '&#FF00FF&l=== GRAVES ==='
+  grave: '&#FF00FF[TP] &#FFAAFF%player% &7- &#FFAAFF%world% %x%, %y%, %z% &7(%time%)'
+  no-graves: '&#FFAAFFThere are no graves!'
+
+update-notifier: '&#FF88FFThere is a new version of AxGraves available! &#DDDDDD(&#FFFFFFcurrent: &#FF0000%current% &#DDDDDD| &#FFFFFFlatest: &#00FF00%latest%&#DDDDDD)'
+
+# do not edit
+version: '5'

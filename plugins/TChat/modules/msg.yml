@@ -1,0 +1,54 @@
+# #################################################################
+# ┌─────────────────────────────────────────────────────────────┐ #
+# │                       Private Messages                      │ #
+# └─────────────────────────────────────────────────────────────┘ #
+# #################################################################
+
+pm:
+  msg:
+    formats:
+      # Format of the message for the sender
+      sender: "&5&l! &a%sender% &e&l> &a%recipient%&7: &f%message%"
+      # Format of the message for the receiver
+      receiver: "&6&l! &a%sender% &e&l> &a%recipient%&7: &f%message%"
+    # Per group hover text (groups.yml)
+    hover:
+      # Group name
+      default:
+        sender:
+          - "&bClick to reply"
+        # Actions:
+        # [EXECUTE] - Executes a command
+        # [SUGGEST] - Suggests a command
+        # [OPEN] - Open a URL
+        sender-action: "[SUGGEST] /msgr "
+        receiver:
+          - "&bClick to reply"
+        # Actions:
+        # [EXECUTE] - Executes a command
+        # [SUGGEST] - Suggests a command
+        # [OPEN] - Open a URL
+        receiver-action: "[SUGGEST] /msgr "
+  reply:
+    formats:
+      # Format of the reply message for the sender
+      sender: "&5&l! &a%sender% &e&l> &a%recipient%&7: &f%message%"
+      # Format of the reply message for the receiver
+      receiver: "&6&l! &a%sender% &e&l> &a%recipient%&7: &f%message%"
+    hover:
+      # Group name
+      default:
+        sender:
+          - "&bClick to reply"
+        # Actions:
+        # [EXECUTE] - Executes a command
+        # [SUGGEST] - Suggests a command
+        # [OPEN] - Open a URL
+        sender-action: "[SUGGEST] /msgr "
+        receiver:
+          - "&bClick to reply"
+        # Actions:
+        # [EXECUTE] - Executes a command
+        # [SUGGEST] - Suggests a command
+        # [OPEN] - Open a URL
+        receiver-action: "[SUGGEST] /msgr "

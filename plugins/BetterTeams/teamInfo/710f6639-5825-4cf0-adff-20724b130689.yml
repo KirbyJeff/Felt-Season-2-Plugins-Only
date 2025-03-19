@@ -1,0 +1,18 @@
+name: colon3
+description: ':3 '
+open: false
+pvp: false
+home: ''
+color: '9'
+chests: []
+players:
+- f5f88cae-5f6e-4132-928f-a00e767438fc,DEFAULT
+- 3e460bd7-cb94-4b46-822b-de68e6c9ed1d,DEFAULT
+- 8c77044c-2184-4ab0-9bc3-84e90018e425,OWNER
+- f06b9735-a22e-424d-9b53-e21d63a38369,DEFAULT
+- 749bffb9-fc4d-42d7-b88e-78084f094500,DEFAULT
+- e01def7f-095b-4ea0-a85b-698672278990,OWNER
+level: 1
+tag: :3
+score: 54
+bans: []

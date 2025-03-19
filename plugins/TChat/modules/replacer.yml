@@ -1,0 +1,67 @@
+# #################################################################
+# ┌─────────────────────────────────────────────────────────────┐ #
+# │                           Replacer                          │ #
+# └─────────────────────────────────────────────────────────────┘ #
+# #################################################################
+
+# Original is the word detected by Replacer, when detected, it replaces it with replace
+
+  # Emoji Replacements
+  emoji_smile_colon:
+    original: "smile"
+    replace: "sigma"
+    permission: tchat.replace.all
+  emoji_smile:
+    original: ":smile:"
+    replace: "😊"
+    permission: tchat.replace.all
+
+  emoji_heart:
+    original: ":heart:"
+    replace: "❤"
+    permission: tchat.replace.all
+
+  emoji_thumbs_up:
+    original: ":thumbsup:"
+    replace: "👍"
+    permission: tchat.replace.all
+
+  emoji_love_heart:
+    original: "<3"
+    replace: "❤"
+    permission: tchat.replace.all
+
+  emoji_laugh:
+    original: ":lol:"
+    replace: "😂"
+    permission: tchat.replace.all
+
+  emoji_fire:
+    original: ":fire:"
+    replace: "🔥"
+    permission: tchat.replace.all
+
+  emoji_sad:
+    original: ":sad:"
+    replace: "😢"
+    permission: tchat.replace.all
+
+  emoji_party:
+    original: ":party:"
+    replace: "🎉"
+    permission: tchat.replace.all
+
+  emoji_star:
+    original: ":star:"
+    replace: "⭐"
+    permission: tchat.replace.all
+
+  emoji_clap:
+    original: ":clap:"
+    replace: "👏"
+    permission: tchat.replace.all
+
+  emoji_muscle:
+    original: ":strong:"
+    replace: "💪"
+    permission: tchat.replace.all
