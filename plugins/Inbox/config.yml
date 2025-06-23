@@ -1,4 +1,0 @@
-#modify the duration (in days) all inboxes should be cleared
-#you can use a number (like 1, 2, 3...) or "never" (without "").
-
-message-expiry-days: 30
